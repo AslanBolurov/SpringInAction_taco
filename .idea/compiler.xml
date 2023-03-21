@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tacocloud-kitchen-r2dbc" />
+        <module name="tacocloud-data-r2dbc" />
+        <module name="tacocloud-security-r2dbc" />
+        <module name="tacocloud-messaging-kafka-r2dbc" />
+        <module name="tacocloud-messaging-noop-r2dbc" />
+        <module name="tacocloud-ui-r2dbc" />
+        <module name="tacocloud-domain-r2dbc" />
+        <module name="tacocloud-messaging-rabbitmq-r2dbc" />
+        <module name="tacocloud-messaging-jms-r2dbc" />
+        <module name="tacocloud-r2dbc" />
+        <module name="tacocloud-restclient-r2dbc" />
+        <module name="tacocloud-web-r2dbc" />
+        <module name="tacocloud-api-r2dbc" />
+        <module name="tacocloud-email-r2dbc" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tacocloud-api-r2dbc" options="-parameters" />
+      <module name="tacocloud-data-r2dbc" options="-parameters" />
+      <module name="tacocloud-domain-r2dbc" options="-parameters" />
+      <module name="tacocloud-email-r2dbc" options="-parameters" />
+      <module name="tacocloud-kitchen-r2dbc" options="-parameters" />
+      <module name="tacocloud-messaging-jms-r2dbc" options="-parameters" />
+      <module name="tacocloud-messaging-kafka-r2dbc" options="-parameters" />
+      <module name="tacocloud-messaging-noop-r2dbc" options="-parameters" />
+      <module name="tacocloud-messaging-rabbitmq-r2dbc" options="-parameters" />
+      <module name="tacocloud-r2dbc" options="-parameters" />
+      <module name="tacocloud-restclient-r2dbc" options="-parameters" />
+      <module name="tacocloud-security-r2dbc" options="-parameters" />
+      <module name="tacocloud-ui-r2dbc" options="-parameters" />
+      <module name="tacocloud-web-r2dbc" options="-parameters" />
+    </option>
+  </component>
+</project>
