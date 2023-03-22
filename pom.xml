@@ -36,6 +36,7 @@
       <module>tacocloud-security</module>
       <module>tacocloud-web</module>
       <module>tacocloud-ui</module>
+        <module>RSocket</module>
     </modules>
 
 </project>

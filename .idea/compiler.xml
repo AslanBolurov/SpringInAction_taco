@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tacocloud-kitchen-r2dbc" />
+        <module name="RSocket" />
         <module name="tacocloud-data-r2dbc" />
         <module name="tacocloud-security-r2dbc" />
         <module name="tacocloud-messaging-kafka-r2dbc" />
@@ -25,6 +26,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RSocket" options="-parameters" />
       <module name="tacocloud-api-r2dbc" options="-parameters" />
       <module name="tacocloud-data-r2dbc" options="-parameters" />
       <module name="tacocloud-domain-r2dbc" options="-parameters" />
